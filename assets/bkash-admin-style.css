@@ -1,0 +1,340 @@
+
+	
+	/* Developer credit section */
+.plugin-developer-credit {
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f1f1f1;
+    border-top: 1px solid #e0e0e0;
+}
+
+.plugin-developer-credit p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.plugin-developer-credit .dashicons-heart {
+    color: #e2126e;
+}
+
+.plugin-developer-credit strong {
+    font-weight: normal;
+    color: #333;
+}
+
+/* Social Links */
+.developer-social-links {
+    margin-top: 10px;
+}
+
+.developer-social-links .social-link {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.developer-social-links .social-link:hover {
+    color: #0073aa;
+}
+
+.developer-social-links .social-link.github:hover {
+    color: #24292f; /* GitHub icon color */
+}
+
+.developer-social-links .social-link.facebook:hover {
+    color: #3b5998; /* Facebook icon color */
+}
+
+.developer-social-links .social-link.wordpress:hover {
+    color: #21759b; /* WordPress icon color */
+}
+
+.developer-social-links .social-link.linkedin:hover {
+    color: #0077b5; /* LinkedIn icon color */
+}
+
+.developer-social-links .social-link.website:hover {
+    color: #42a5f5; /* Website icon color */
+}
+
+	
+	/* Overlay background */
+.help-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Popup content box */
+.help-popup-content {
+    background: #fff;
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content area with automatic height adjustment */
+.help-popup-content-area {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Header with icon and title */
+.popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup-header h2 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #0073aa;
+}
+
+.popup-header .dashicons {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #0073aa;
+}
+
+/* Close button */
+.popup-close-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-close-button .dashicons {
+    font-size: 18px;
+    color: #555;
+}
+
+.popup-close-button:hover .dashicons {
+    color: #e2126e;
+}
+
+/* Individual icon colors */
+.icon-blue { color: #1e90ff; }
+.icon-green { color: #32cd32; }
+.icon-orange { color: #ffa500; }
+.icon-purple { color: #6a0dad; }
+.icon-red { color: #e2126e; }
+
+/* Footer with donation button */
+.popup-footer {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.popup-footer p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Donation button */
+.donation-button {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.donation-button:hover {
+    background-color: #e45a50;
+}
+
+
+
+	.bkash-shortcode-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bkash-shortcode-section input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.bkash-long-shortcode {
+    width: 90%; /* Make the box wider */
+    height: 150px; /* Increase the height to show the full text */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    resize: vertical; /* Allow users to resize the textarea vertically */
+}
+
+.bkash-shortcode-buttons {
+    margin-top: 10px;
+    text-align: right; /* Align buttons to the right */
+}
+
+.bkash-copy-button,
+.bkash-save-button,
+.bkash-reset-button {
+    padding: 8px 12px;
+    background-color: #E2126E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.bkash-save-button {
+    background-color: #4CAF50; /* Green color for Save button */
+}
+
+.bkash-reset-button {
+    background-color: #F44336; /* Red color for Reset button */
+}
+
+.bkash-copy-button:hover {
+    background-color: #C20E5E;
+}
+
+.bkash-save-button:hover {
+    background-color: #45A049;
+}
+
+.bkash-reset-button:hover {
+    background-color: #D32F2F;
+}
+
+	
+        /* Gradient Background */
+	.bkash-settings-page {
+    background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 30%, #E2126E 100%);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+	}
+
+     .bkash-title {
+         font-size: 20px;
+            color: #333;
+            margin: 10px 0px 10px 0px;
+            font-weight: bold;
+        }
+
+        .bkash-link-button {
+            margin-bottom: 15px;
+        }
+	.flat-bkash-link-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff6b6b; /* Flat red color */
+    color: #ffffff;
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+	}	
+
+	.flat-bkash-link-button:hover {
+    background-color: #ff5252; /* Slightly darker shade on hover */
+	}
+
+        .bkash-form {
+            margin-top: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .bkash-heading {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .bkash-form-table td textarea,
+	.bkash-form-table td input[type="text"] {
+    width: 50%;
+		}
+
+        .bkash-input,
+        .bkash-textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .bkash-input:focus,
+        .bkash-textarea:focus {
+            border-color: #f5a623;
+            box-shadow: 0 0 5px rgba(245, 166, 35, 0.5);
+            outline: none;
+        }
+
+        .bkash-textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        .bkash-separator {
+            height: 5px;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+
+        /* Gradient Button */
+        input[type="submit"].button-primary {
+            background: linear-gradient(135deg, #E2126E, #E2126E);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+			font-size: 17px;
+			font-weight: 400px;
+        }
+
+       input[type="submit"].button-primary:hover {
+    background: linear-gradient(135deg, #D31165, #D31165);
+}
+    

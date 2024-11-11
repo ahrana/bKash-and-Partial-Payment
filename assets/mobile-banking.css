@@ -1,0 +1,366 @@
+/* General styling */
+.mobile-banking-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul.payment-method-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment-method-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Evenly space items */
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.button-39 {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px; /* Uniform width */
+    height: 50px; /* Uniform height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-39:hover {
+    background-color: #E2126E; /* Change background to pink */
+    color: white; /* Change text color to white */
+}
+
+.button-39:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+    box-shadow: none;
+}
+
+/* Button styling */
+.button-40 {
+    background-color: #FFFFFF; /* Initial background color */
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827; /* Initial font color */
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px; /* Uniform width */
+    height: 50px; /* Uniform height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-40:hover {
+    background-color: #F69220; /* Change background to orange */
+    color: white; /* Change text color to white */
+}
+
+.button-40:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-40:focus-visible {
+    box-shadow: none;
+}
+
+/* Button 41 styling */
+.button-41 {
+    background-color: #FFFFFF; /* Initial background color */
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827; /* Initial font color */
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px; /* Uniform width */
+    height: 50px; /* Uniform height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-41:hover {
+    background-color: #88288F; /* Change background to purple */
+    color: white; /* Change text color to white */
+}
+
+.button-41:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-41:focus-visible {
+    box-shadow: none;
+}
+
+/* Button 42 styling */
+.button-42 {
+    background-color: #FFFFFF; /* Initial background color */
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827; /* Initial font color */
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px; /* Uniform width */
+    height: 50px; /* Uniform height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-42:hover {
+    background-color: #0054A5; /* Change background to blue */
+    color: white; /* Change text color to white */
+}
+
+.button-42:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-42:focus-visible {
+    box-shadow: none;
+}
+
+
+
+/* Icon styling */
+.payment-icon {
+    width: 50px;  /* Uniform width */
+    height: 50px; /* Uniform height */
+    margin: 0 10px; /* Space between label and icon */
+    object-fit: contain; /* Ensure icon fits within the box */
+}
+
+/* Number display */
+.payment-number {
+    margin-left: 15px; /* Space between the icon and mobile number */
+    font-weight: bold;
+    color: #333;
+    display: none;
+}
+
+/* CSS for Labels */
+.payer-number-label {
+font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 8px 0px 8px 0;
+    display: block;                       /* Makes the label take full width */
+}
+
+.transaction-id-label {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 8px 0px 8px 0;
+    display: block;
+}
+
+
+
+/* Input field styles */
+.mobile-banking-form input[type="tel"],
+.mobile-banking-form input[type="text"] {
+    width: 100%;
+	height:40px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.mobile-banking-form input[type="tel"]:focus,
+.mobile-banking-form input[type="text"]:focus {
+    border-color: #007cba;
+    box-shadow: 0 0 5px rgba(0, 124, 186, 0.5);
+}
+
+/* Glow effect for form fields */
+.mobile-banking-form input[type="tel"]:hover,
+.mobile-banking-form input[type="text"]:hover {
+    box-shadow: 0 0 8px rgba(0, 124, 186, 0.2);
+}
+
+/* Animation for hover */
+.payment-method-item:hover .payment-number {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/* Add this CSS to your stylesheet */
+.payment-method-item {
+    display: flex;
+    align-items: center;
+    transition: filter 0.3s ease; /* Smooth transition for blur effect */
+}
+
+.payment-button {
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.zoom {
+    transform: scale(1.1); /* Zoom effect */
+    z-index: 1; /* Bring the zoomed button to the front */
+}
+
+.blur {
+    filter: blur(2px); /* Apply blur effect to non-selected buttons */
+}
+
+/* CSS for Payment Options */
+.payment-options {
+    display: flex;                /* Use flexbox for alignment */
+    flex-direction: row;         /* Align items in a row */
+    gap: 10px;                   /* Space between the buttons */
+    align-items: center;         /* Center items vertically */
+    font-family: Inter, sans-serif; /* Font family */
+    margin-top: 16px;           /* Add space above the buttons */
+}
+
+/* Style for the radio input */
+.payment-options input[type="radio"] {
+    display: none;               /* Hide the default radio button */
+}
+
+/* Style for labels using .button-59 */
+.payment-options label {
+    align-items: center;         /* Center items vertically */
+    background-color: #fff;      /* Background color */
+    border: 2px solid #000;      /* Border color */
+    box-sizing: border-box;      /* Include padding and border in total size */
+    color: #000;                  /* Text color */
+    cursor: pointer;              /* Pointer cursor on hover */
+    display: inline-flex;         /* Flex display */
+    height: 48px;                /* Fixed height for uniformity */
+    justify-content: center;      /* Center horizontally */
+    letter-spacing: -.8px;       /* Letter spacing */
+    line-height: 24px;           /* Line height */
+    min-width: 140px;            /* Minimum width */
+    outline: 0;                  /* No outline */
+    padding: 0 15px;             /* Padding */
+    text-align: center;          /* Center align text */
+    text-decoration: none;        /* No underline */
+    transition: all .3s;         /* Transition effects */
+    user-select: none;           /* Prevent text selection */
+    -webkit-user-select: none;   /* Prevent text selection on webkit browsers */
+    touch-action: manipulation;   /* Prevent default touch behavior */
+    width: 100%;                  /* Make buttons full width */
+}
+
+/* Focus and hover effects for labels */
+.payment-options label:focus {
+    color: #171e29;              /* Change text color on focus */
+}
+
+.payment-options label:hover {
+    border-color: #06f;         /* Border color on hover */
+    color: #06f;                /* Text color on hover */
+}
+
+/* Active effect for labels */
+.payment-options input[type="radio"]:checked + label {
+    border-color: #06f;         /* Change border color when checked */
+    color: #06f;                /* Change text color when checked */
+}
+
+/* Active effect for labels when checked */
+.payment-options input[type="radio"]:checked + label:hover,
+.payment-options input[type="radio"]:checked + label:focus {
+    border-color: #06f;         /* Same border when hovered or focused */
+    color: #06f;                /* Same text color when hovered or focused */
+}
+
+/* Styles for the checked radio button */
+.payment-options input[type="radio"]:checked + label {
+    background-color: #edf2f7; /* Active background color for the checked state */
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px; /* Box shadow for checked state */
+    color: #41403e; /* Maintain text color for active state */
+	border-left: 5px solid #2b6cb0;
+}
+
+@media (min-width: 768px) {
+    .payment-options label {
+        min-width: 170px;       /* Set a minimum width for larger screens */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .payment-options {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .payment-options label {
+        width: auto;            /* Allow labels to resize */
+        min-width: 100%;        /* Set minimum width to 100% for smaller screens */
+    }
+}
+
+
+

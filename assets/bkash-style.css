@@ -1,0 +1,267 @@
+/* Modal styles */
+#bkashPaymentModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Responsive adjustments for smaller devices */
+@media only screen and (max-width: 600px) {
+    .modal-content {
+        margin: 20% auto;
+        width: 95%;
+    }
+}
+
+/* Modal body styles for two-column layout */
+.modal-body {
+    display: flex;
+}
+
+.form-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+
+/* Form field styles */
+#bkashCheckoutForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#bkashCheckoutForm label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#bkashCheckoutForm input[type="text"],
+#bkashCheckoutForm input[type="email"],
+#bkashCheckoutForm input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* Form field focus glowing effect */
+#bkashCheckoutForm input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 8px rgba(0, 102, 204, 0.5);
+}
+
+/* Style the submit button */
+#bkashCheckoutForm button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#bkashCheckoutForm button:hover {
+    background-color: #218838;
+}
+
+/* Responsive design for form */
+#bkashCheckoutForm input,
+#bkashCheckoutForm button {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+/* Styles for the logo column */
+.logo-column {
+    flex: 0 0 250px;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the radio buttons in a single line */
+#mobileOperator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mobileOperator label {
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+#mobileOperator input[type="radio"] {
+    appearance: none; /* Remove default radio button */
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Color styles for each radio button */
+#mobileOperator input[type="radio"][value="bkash"] {
+    background-color: #E2126E; /* bKash */
+    border: 2px solid #E2126E;
+}
+
+#mobileOperator input[type="radio"][value="nagad"] {
+    background-color: #F69220; /* Nagad */
+    border: 2px solid #F69220;
+}
+
+#mobileOperator input[type="radio"][value="rocket"] {
+    background-color: #88288F; /* Rocket */
+    border: 2px solid #88288F;
+}
+
+#mobileOperator input[type="radio"][value="upay"] {
+    background-color: #0054A5; /* Upay */
+    border: 2px solid #0054A5;
+}
+
+/* Styles for checked state */
+#mobileOperator input[type="radio"]:checked {
+    border: 4px solid white;
+    box-shadow: 0 0 0 2px black;
+}
+
+/* Styles for mobile information display */
+#mobileInfo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mobileNumber {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#operatorLogo {
+    display: none;
+    width: 120px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+.instruction-text {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .logo-column {
+        flex: 0 0 100%;
+        padding-left: 0;
+    }
+
+    #mobileOperator {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #mobileOperator label {
+        margin-bottom: 10px;
+    }
+}
+
+#bkashCheckoutContainer h3 {
+    position: relative;
+	margin-bottom: 10px;
+	
+}
+
+#bkashCheckoutContainer h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: #e2126e;
+    transition: width 0.3s ease;
+    width: 100%;
+	margin-bottom: 10px;
+}
+
+#bkashCheckoutContainer h3:hover::after {
+    width: 50%; /* Changes width on hover */
+    background-color: #e74c3c; /* Change color on hover */
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/* Optional: Add some responsiveness */
+@media (max-width: 600px) {
+    #bkashCheckoutContainer h3 {
+        font-size: 20px; /* Smaller font size for mobile */
+		
+    }
+}
